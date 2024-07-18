@@ -213,8 +213,8 @@ const ShowModal = ({
           {view === "table"
             ? "List of Shows"
             : view === "form"
-            ? "Add Show"
-            : "Edit Show"}
+              ? "Add Show"
+              : "Edit Show"}
         </h3>
         {view === "table" && (
           <Button type="primary" onClick={() => setView("form")}>

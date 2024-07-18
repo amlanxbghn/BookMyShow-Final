@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react'
 import { Button, Form, Input } from "antd";
 import { useNavigate } from "react-router-dom";
-import {  ResetPassword } from '../calls/users';
+import { ResetPassword } from '../calls/users';
 import { message } from 'antd'
 
 function Reset() {

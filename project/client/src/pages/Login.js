@@ -7,10 +7,10 @@ function Login() {
   const navigate = useNavigate();
 
   useEffect(() => {
-    if(localStorage.getItem('token')){
-        navigate("/");
+    if (localStorage.getItem('token')) {
+      navigate("/");
     }
-  }, [navigate]); 
+  }, [navigate]);
 
   const onFinish = async (values) => {
     try {
